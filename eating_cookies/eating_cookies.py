@@ -5,6 +5,14 @@ Returns: an integer
 def eating_cookies(n):
     # Your code here
 
+    ls = [1,2,3]
+
+    count = 0
+
+    for x in ls:
+        
+        
+
     pass
 
 if __name__ == "__main__":

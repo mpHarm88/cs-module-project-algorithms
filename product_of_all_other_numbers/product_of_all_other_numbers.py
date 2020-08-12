@@ -4,8 +4,19 @@ Returns: a List of integers
 '''
 def product_of_all_other_numbers(arr):
     # Your code here
+    ls = []
 
-    pass
+    # pop the index out of temp and multiply togeter
+    for x in range(len(arr)):
+        temp = arr[:]
+        temp.pop(x)
+        product = 1
+        for x in temp:
+            product *= x
+            
+        ls.append(product)
+
+    return ls
 
 
 if __name__ == '__main__':
